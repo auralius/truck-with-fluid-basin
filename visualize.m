@@ -12,7 +12,9 @@ h_basin = plot(0,0,'r', 'LineWidth', 3);
 h_truck = plot(0,0,'k', 'LineWidth', 3);
 h_water_surface = area(0,0, 'FaceColor', 'b');
 axis equal
-ylim([-0.5 -0.5+L]);
+axis equal
+ylim([-0.5 1.5]);
+xlim([0 max(d_T_array)+6])
 
 x_array = (0:dx:L)'; 
 
