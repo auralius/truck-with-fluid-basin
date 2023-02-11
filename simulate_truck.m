@@ -44,7 +44,7 @@ end
 
 % Update the fluid horizontal velocit
 for j = 2 : N - 1
-    v_next(j) = -dt/m_W * F - dt/(2*dx) * ( 0.5*v(j+1)^2 + g*h(j++1) - 0.5*v(j-1)^2 - g*h(j-1)) + 0.5*( v(j+1)+v(j-1) );
+    v_next(j) = -dt/m_W * F - dt/(2*dx) * ( 0.5*v(j+1)^2 + g*h(j+1) - 0.5*v(j-1)^2 - g*h(j-1)) + 0.5*( v(j+1)+v(j-1) );
 end
 
 h = h_next;
