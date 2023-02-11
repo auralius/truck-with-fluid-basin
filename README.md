@@ -1,5 +1,5 @@
-# truck-with-fluid-basin
-Numerical model and simulation of a truck with a fluid basin
+# truck-with-fluid-basin 
+Numerical model and simulation of a truck with a fluid basin (Octave compatible)
 
 
 The model is based on the following paper:  
@@ -15,6 +15,6 @@ The animation below shows the moving truck due to an external forces of 4000N fo
 See also this [PDF file](https://github.com/auralius/truck-with-fluid-basin/blob/main/Model%20Derivation.pdf) for the model derivation process.  
 
 
-![demo1](https://github.com/auralius/truck-with-fluid-basin/blob/main/demo1.gif)
+![demo1](https://github.com/auralius/truck-with-fluid-basin/blob/octave/demo1.gif)
 
 
