@@ -1,6 +1,8 @@
 # truck-with-fluid-basin
 Numerical model and simulation of a truck with a fluid basin
 
+Octave compatible version: https://github.com/auralius/truck-with-fluid-basin/tree/octave
+
 
 The model is based on the following paper:  
 [Numerical optimal control of a coupled ODE-PDE model of a truck with a fluid basin](https://www.aimsciences.org/article/doi/10.3934/proc.2015.0515)
