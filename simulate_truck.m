@@ -30,9 +30,9 @@ function [d_W, d_T, h, v] = simulate_truck( ...
 
 N = length(h);
 
-v_t = zeros(N,1);
-h_next = zeros(N,1);
-v_next = zeros(N,1);
+v_t = zeros(1, N);
+h_next = zeros(1, N);
+v_next = zeros(1, N);
 
 % Force between the truck and the filled basin
 F = c*(d_T(1)-d_W(1)-d_bar) + k*(d_T(2)-d_W(2));
